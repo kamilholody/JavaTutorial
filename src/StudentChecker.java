@@ -1,11 +1,18 @@
 public class StudentChecker {
     public static void main(String[] args) {
+
+        String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();
+
+
         Student student1 = new Student();
         student1.imie = "Kamil";
         student1.nazwisko = "Hołody";
         student1.nick = "Limak";
         student1.email = "kamilholody@live.com";
         student1.numerIndeksu = 23452;
+        String uczelniaStuden1 = student1.nazwaUczelni;
+        student1.infoUczelnia();
 
         Student student2 = new Student();
         student2.imie = "Arek";
